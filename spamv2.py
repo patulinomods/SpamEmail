@@ -6,7 +6,7 @@ import colorama
 import ctypes
 from colorama import Fore
 
-ctypes.windll.kernel32.SetConsoleTitleW('卍 -SPAM DE EMAIL BY PATOMAKER- 卍')
+ctypes.windll.kernel32.SetConsoleTitleW('-SPAM DE EMAIL BY PATOMAKER-')
 if len(sys.argv) < 2:
     os.system("clear || cls")
     sys.stdout.write(f'''{Fore.RESET}
@@ -65,25 +65,25 @@ try:
         if i == 1:
             print((f' [{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
         elif i == 2:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 3:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 4:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 5:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 6:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 7:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
-        elif i == 8:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
+        elif i == 8
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 9:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 0:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         else:
-            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}'' [%d] Email enviado! 卍 ')%(i))
+            print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}'' [%d] Email enviado!  ')%(i))
         sys.stdout.flush()
     print("")
     print(f" {Fore.RESET}[{Fore.RED}!{Fore.RESET}] {Fore.GREEN} O e-mail foi colocado em uma base de dados")
