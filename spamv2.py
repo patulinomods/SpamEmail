@@ -76,7 +76,7 @@ try:
             print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 7:
             print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
-        elif i == 8
+        elif i == 8:
             print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
         elif i == 9:
             print((f' {Fore.RESET}[{Fore.RED}>{Fore.RESET}] {Fore.GREEN}''[%d] Email enviado!  ')%(i))
